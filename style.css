@@ -257,6 +257,18 @@ section h2::after {
     box-shadow: 0 0 20px rgba(37, 99, 235, 0.2);
 }
 
+/* Tambahkan ini di bagian .dark-theme di style.css */
+
+.dark-theme #projects .card .btn-contact {
+    color: var(--bg-dark); /* Mengubah warna teks menjadi gelap agar kontras dengan background tombol */
+    background-color: var(--accent); /* Mengubah warna background tombol menjadi kuning amber saat dark mode */
+}
+
+.dark-theme #projects .card .btn-contact:hover {
+    background-color: #ffffff; /* Warna berubah menjadi putih saat kursor diarahkan */
+    color: var(--primary);
+}
+
 /* ========================================
    7. RESPONSIVE DESIGN
    ======================================== 
@@ -319,3 +331,4 @@ footer {
 .dark-theme .social-icons a:hover {
     color: var(--accent);
 }
+
